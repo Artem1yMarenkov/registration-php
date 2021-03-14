@@ -30,7 +30,6 @@ class Registration implements registrate {
     private function save_db() : void
     {
         $query = "INSERT INTO `users` (`login`, `password`) VALUES ('" . $this->login . "','" . $this->password . "')";
-        echo $query;
         $this->mysqli->query($query);
     }
 }
