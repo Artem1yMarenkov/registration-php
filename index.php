@@ -11,11 +11,20 @@
 </head>
 <body>
     <div class="container">
-        <form action="registration.php" method="get">
+        <form action="singup.php" method="get" class="mt-5">
             <h2>Registration</h2>
             <input name="login" type="text" class="form-controle mt-2" placeholder="login" required><br>
             <input name="password" type="password" class="form-controle mt-2" placeholder="password" required><br>
-            <button type="submit" class="btn btn-dark mt-2">Submit</button>
+            <button type="submit" class="btn btn-dark mt-3">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <form action="singin.php" method="get" class="mt-5">
+            <h2>Login</h2>
+            <input name="login" type="text" class="form-controle mt-2" placeholder="login" required><br>
+            <input name="password" type="password" class="form-controle mt-2" placeholder="password" required><br>
+            <button type="submit" class="btn btn-dark mt-3">Submit</button>
         </form>
     </div>
 </body>
